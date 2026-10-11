@@ -4462,10 +4462,10 @@
     "chapter_id": "1257535508",
     "title": "理解劳动与职业发展",
     "task_type": "video",
-    "status": "DISCOVERED",
+    "status": "COMPLETED",
     "priority": 0,
-    "attempt_count": 0,
-    "attempts": 0,
+    "attempt_count": 1,
+    "attempts": 1,
     "consecutive_failures": 0,
     "max_attempts": 3,
     "lease": {
@@ -4474,33 +4474,35 @@
       "expires_at_utc": null
     },
     "verification": {
-      "level": "NONE",
-      "verified_at_utc": null,
-      "run_id": null,
-      "source_detail": ""
+      "level": "SERVER_VERIFIED",
+      "verified_at_utc": "2026-10-11T08:17:35.060085+00:00",
+      "run_id": "38123802050",
+      "source_detail": "passed_object_ids=1"
     },
     "completion_evidence": {
-      "type": "NONE",
-      "source": "",
-      "run_id": "",
-      "observed_at_utc": "2026-10-11T03:12:13.686916+00:00",
-      "detail": "",
-      "passed_object_ids": []
+      "type": "SERVER_VERIFIED",
+      "source": "isPassed",
+      "run_id": "38123802050",
+      "observed_at_utc": "2026-10-11T08:17:35.060085+00:00",
+      "detail": "passed_object_ids=1",
+      "passed_object_ids": [
+        "d1c0a1df37cfbcb6e9fefd6b90d0dace"
+      ]
     },
     "failure": {
       "stage": "",
       "run_id": "",
       "detail": "",
       "consecutive_failures": 0,
-      "occurred_at_utc": "2026-10-11T03:12:13.686920+00:00"
+      "occurred_at_utc": "2026-10-11T08:17:35.060094+00:00"
     },
     "created_at_utc": "2026-10-11T03:12:13.686923+00:00",
-    "updated_at_utc": "2026-10-11T03:12:13.686923+00:00",
-    "last_run_id": null,
-    "last_run_at_utc": null,
-    "last_started_at": null,
-    "last_finished_at": null,
-    "last_success_at_utc": null,
+    "updated_at_utc": "2026-10-11T08:17:35.060085+00:00",
+    "last_run_id": "38123802050",
+    "last_run_at_utc": "2026-10-11T08:17:35.060085+00:00",
+    "last_started_at": "2026-10-11T08:17:35.060085+00:00",
+    "last_finished_at": "2026-10-11T08:17:35.060085+00:00",
+    "last_success_at_utc": "2026-10-11T08:17:35.060085+00:00",
     "last_failure_at_utc": null,
     "_ch_idx": 4,
     "_cell_idx": 4,
