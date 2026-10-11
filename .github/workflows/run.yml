@@ -72,7 +72,7 @@ on:
     # :07 即对该拥塞假设的对照观察 —— 延迟照旧则说明名义时刻不可对表。
     # 两条腿名义只差 2h，撞上会进 concurrency group (xuexitong-active-course,
     # cancel-in-progress:false, job timeout 50min) 排队 —— 只延后，不丢也不取消。
-    - cron: '0 */3 * * *'
+    - cron: '0 */1 * * *'
     
 
 permissions:
