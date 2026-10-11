@@ -208,10 +208,10 @@
     "chapter_id": "1257535506",
     "title": "认识劳动",
     "task_type": "video",
-    "status": "DISCOVERED",
+    "status": "COMPLETED",
     "priority": 0,
-    "attempt_count": 0,
-    "attempts": 0,
+    "attempt_count": 1,
+    "attempts": 1,
     "consecutive_failures": 0,
     "max_attempts": 3,
     "lease": {
@@ -220,33 +220,35 @@
       "expires_at_utc": null
     },
     "verification": {
-      "level": "NONE",
-      "verified_at_utc": null,
-      "run_id": null,
-      "source_detail": ""
+      "level": "SERVER_VERIFIED",
+      "verified_at_utc": "2026-10-11T03:34:36.452198+00:00",
+      "run_id": "38107538016",
+      "source_detail": "passed_object_ids=1"
     },
     "completion_evidence": {
-      "type": "NONE",
-      "source": "",
-      "run_id": "",
-      "observed_at_utc": "2026-10-10T16:19:09.765974+00:00",
-      "detail": "",
-      "passed_object_ids": []
+      "type": "SERVER_VERIFIED",
+      "source": "isPassed",
+      "run_id": "38107538016",
+      "observed_at_utc": "2026-10-11T03:34:36.452198+00:00",
+      "detail": "passed_object_ids=1",
+      "passed_object_ids": [
+        "ed59bbdf5ffe25bcc04e5c4d0eb21dc3"
+      ]
     },
     "failure": {
       "stage": "",
       "run_id": "",
       "detail": "",
       "consecutive_failures": 0,
-      "occurred_at_utc": "2026-10-10T16:19:09.765976+00:00"
+      "occurred_at_utc": "2026-10-11T03:34:36.452209+00:00"
     },
     "created_at_utc": "2026-10-10T16:19:09.765978+00:00",
-    "updated_at_utc": "2026-10-10T16:19:09.765978+00:00",
-    "last_run_id": null,
-    "last_run_at_utc": null,
-    "last_started_at": null,
-    "last_finished_at": null,
-    "last_success_at_utc": null,
+    "updated_at_utc": "2026-10-11T03:34:36.452198+00:00",
+    "last_run_id": "38107538016",
+    "last_run_at_utc": "2026-10-11T03:34:36.452198+00:00",
+    "last_started_at": "2026-10-11T03:34:36.452198+00:00",
+    "last_finished_at": "2026-10-11T03:34:36.452198+00:00",
+    "last_success_at_utc": "2026-10-11T03:34:36.452198+00:00",
     "last_failure_at_utc": null,
     "_ch_idx": 2,
     "_cell_idx": 2,
@@ -4450,6 +4452,56 @@
     "last_failure_at_utc": null,
     "_ch_idx": 3,
     "_cell_idx": 3,
+    "rollback_count": 0,
+    "last_rollback_at_utc": ""
+  },
+  "1257535508": {
+    "task_id": "1257535508",
+    "chapter_id": "1257535508",
+    "title": "理解劳动与职业发展",
+    "task_type": "video",
+    "status": "DISCOVERED",
+    "priority": 0,
+    "attempt_count": 0,
+    "attempts": 0,
+    "consecutive_failures": 0,
+    "max_attempts": 3,
+    "lease": {
+      "run_id": null,
+      "started_at_utc": null,
+      "expires_at_utc": null
+    },
+    "verification": {
+      "level": "NONE",
+      "verified_at_utc": null,
+      "run_id": null,
+      "source_detail": ""
+    },
+    "completion_evidence": {
+      "type": "NONE",
+      "source": "",
+      "run_id": "",
+      "observed_at_utc": "2026-10-11T03:12:13.686916+00:00",
+      "detail": "",
+      "passed_object_ids": []
+    },
+    "failure": {
+      "stage": "",
+      "run_id": "",
+      "detail": "",
+      "consecutive_failures": 0,
+      "occurred_at_utc": "2026-10-11T03:12:13.686920+00:00"
+    },
+    "created_at_utc": "2026-10-11T03:12:13.686923+00:00",
+    "updated_at_utc": "2026-10-11T03:12:13.686923+00:00",
+    "last_run_id": null,
+    "last_run_at_utc": null,
+    "last_started_at": null,
+    "last_finished_at": null,
+    "last_success_at_utc": null,
+    "last_failure_at_utc": null,
+    "_ch_idx": 4,
+    "_cell_idx": 4,
     "rollback_count": 0,
     "last_rollback_at_utc": ""
   }
